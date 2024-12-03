@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: xml_to_csv_lib
+Version: 1.0.0
+Summary: A library for converting XML files to CSV.
+Author: Selina Mangaroo
+Author-email: selinamangaroo@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas

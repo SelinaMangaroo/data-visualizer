@@ -1,0 +1,2794 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="reportdata" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="accessno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="15"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="acqvalue">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="11"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="appnotes">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="appraisor">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="repatdate" type="xsd:date"/>
+								<xsd:element name="by">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="caption">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="cat">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="catdate" type="xsd:date"/>
+								<xsd:element name="catby">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="classes">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="collection">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="75"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="condition">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="conddate" type="xsd:date"/>
+								<xsd:element name="condnotes">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="condexam">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="creator">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="credit">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="curvalmax">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="11"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="curvalue">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="11"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="dataset">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="15"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="date">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="deacdate" type="xsd:date"/>
+								<xsd:element name="descrip">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="dimnotes">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="dispdate" type="xsd:date"/>
+								<xsd:element name="dispmethod">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="20"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="event">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="repathand">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="homeloc">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="locfield3">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="locfield6">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="40"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="locfield5">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="locfield1">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="locfield4">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="locfield2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="exp_37">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="imagefile">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="imageno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="3"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="inscomp">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="insphone">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="insdate" type="xsd:date"/>
+								<xsd:element name="policyno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="20"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="inspremium">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="20"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="insrep">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="insvalue">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="9"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="invnby">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="invndate" type="xsd:date"/>
+								<xsd:element name="legal">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="notes">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objectid">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="zsorter">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="69"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="40"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="oldno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="otherno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="othername">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="40"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="people">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="provenance">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reason">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="recdate" type="xsd:date"/>
+								<xsd:element name="recas">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="pubnotes">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="repatby">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="40"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="repatclaim">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="repatdisp">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="repatnotes">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="repatnotic" type="xsd:date"/>
+								<xsd:element name="repattype">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="40"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="sterms">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="recfrom">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="status">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="20"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="statusdate" type="xsd:date"/>
+								<xsd:element name="statusby">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="subjects">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="title">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="updated" type="xsd:dateTime"/>
+								<xsd:element name="updatedby">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="valuedate" type="xsd:date"/>
+								<xsd:element name="earlydate">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="latedate">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="exp_81">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="15"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<reportdata>
+		<accessno>2001.079</accessno>
+		<acqvalue>0</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Busman, Caryl</by>
+		<caption>                                                                           </caption>
+		<cat>D</cat>
+		<catdate>2006-02-03</catdate>
+		<catby/>
+		<classes/>
+		<collection/>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator>                                                                                </creator>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date>0</date>
+		<deacdate>2006-02-03</deacdate>
+		<descrip/>
+		<dimnotes/>
+		<dispdate/>
+		<dispmethod/>
+		<event/>
+		<repathand/>
+		<homeloc/>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37/>
+		<imagefile>                                                            </imagefile>
+		<imageno>0</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid>2001.079.03a</objectid>
+		<zsorter>020010007900003     A</zsorter>
+		<objname/>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Not a valid number - no such object exists</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>SLOAN, LARRY                                                                                                            </recfrom>
+		<status/>
+		<statusdate/>
+		<statusby/>
+		<subjects/>
+		<title/>
+		<updated/>
+		<updatedby/>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>2001.079</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>2008.018.01</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption/>
+		<cat>D</cat>
+		<catdate>2013-05-02</catdate>
+		<catby/>
+		<classes/>
+		<collection>Sylvester Fisher</collection>
+		<condition>Fair</condition>
+		<conddate>2013-05-02</conddate>
+		<condnotes/>
+		<condexam>Sheila Leonard</condexam>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>Two large scythes</descrip>
+		<dimnotes/>
+		<dispdate/>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Sierk Building</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\200801801-3.jpg</exp_37>
+		<imagefile>013\200801801-3.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal>These objects are the property of the Murray County Historical Society.</legal>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>2008.018.01</objectid>
+		<zsorter>020080001800001</zsorter>
+		<objname>scythe</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiply items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T11:59:56</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>2008.018.01</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>2016.001</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>2016.001.0161                                                              </caption>
+		<cat>D</cat>
+		<catdate>2016-04-15</catdate>
+		<catby>Victoria McKinney</catby>
+		<classes/>
+		<collection>Textile</collection>
+		<condition>very poor</condition>
+		<conddate>2016-04-15</conddate>
+		<condnotes>Lining is shredding at shoulder seams, poly fabric inside coat is deteriorating, buttons are bakalite glued on silver backs, glue is sticky, removed for storage</condnotes>
+		<condexam>Victoria McKinney</condexam>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-04-15</deacdate>
+		<descrip>Women's royal blue knee length polyester? winter coat, fully lined with white nylon, false double breasted, white piping on collar, pockets and back belt, 8 buttons - glue is sticky on buttons, removed for storage</descrip>
+		<dimnotes/>
+		<dispdate>2016-04-15</dispdate>
+		<dispmethod>Destroyed</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Museum</homeloc>
+		<locfield3/>
+		<locfield6>Rack 2</locfield6>
+		<locfield5/>
+		<locfield1>Textile</locfield1>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>009\20160010161-6.jpg</exp_37>
+		<imagefile>009\20160010161-6.JPG</imagefile>
+		<imageno>12</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>
+Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>2016.001.0161</objectid>
+		<zsorter>020160000100161</zsorter>
+		<objname>Overcoat</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance>FIC</provenance>
+		<reason>Material is disintegrating, buttons were sticky</reason>
+		<recdate/>
+		<recas>Collected by Staff</recas>
+		<pubnotes>...</pubnotes>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>Textile Collection Rehousing</recfrom>
+		<status>Textile Inventory</status>
+		<statusdate>2016-04-15</statusdate>
+		<statusby>Victoria McKinney</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T10:56:39</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>2016.001</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>2017.036</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>A 007</caption>
+		<cat>D</cat>
+		<catdate>2017-07-11</catdate>
+		<catby>Katie Johnson</catby>
+		<classes/>
+		<collection/>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2018-03-23</deacdate>
+		<descrip>Green silk blouse
+donated by Mrs. Walter Holm
+Estate in Slayton, MN
+
+Item was in very poor shape and if there was a skirt to go with top it was not found. Voted to be Deaccessioned 3/20/2018. Item was removed from collection and deposed of by Gaylene Chapman</descrip>
+		<dimnotes/>
+		<dispdate>2018-03-23</dispdate>
+		<dispmethod>Destroyed</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Museum</homeloc>
+		<locfield3/>
+		<locfield6>Box 83</locfield6>
+		<locfield5/>
+		<locfield1>Textile Room</locfield1>
+		<locfield4/>
+		<locfield2>South wall</locfield2>
+		<exp_37>014\2017036001.jpg</exp_37>
+		<imagefile>014\2017036001.JPG                                          </imagefile>
+		<imageno>4</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid>2017.036.001</objectid>
+		<zsorter>020170003600001</zsorter>
+		<objname>Blouse</objname>
+		<oldno>C-84</oldno>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>can not be properly stored, preserved or used.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2017-07-11</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2018-03-27T13:32:42</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>2017.036</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>A-0207</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Rose Schmit</by>
+		<caption>Beer Cans 001</caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby>Gaylene J Chapman</catby>
+		<classes/>
+		<collection>COLLECTION</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date>03/23/2017</date>
+		<deacdate>2018-08-28</deacdate>
+		<descrip>WILDLIFE INSIDE REED HAMPER A-0206  31 cans</descrip>
+		<dimnotes/>
+		<dispdate/>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Museum</homeloc>
+		<locfield3/>
+		<locfield6>box c</locfield6>
+		<locfield5/>
+		<locfield1>West wing</locfield1>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>014\a0207.jpg</exp_37>
+		<imagefile>014\A0207.JPG                                               </imagefile>
+		<imageno>6</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid>A-0207</objectid>
+		<zsorter>A-                       00207</zsorter>
+		<objname>Cans, Schmidt Beer 12 Oz</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Did not fit the mission. </reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2018-08-28</statusdate>
+		<statusby>Rose Schmit</statusby>
+		<subjects/>
+		<title/>
+		<updated>2018-08-28T12:04:05</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>A-0207</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>A-1685</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene</by>
+		<caption>                                                                           </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>FOUND IN ROUND BARN TWO HAND GRIPS
+Scythe with long handle</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Sierk Building</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\a1685.jpg</exp_37>
+		<imagefile>013\A1685.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>A-1685</objectid>
+		<zsorter>A-                       01685</zsorter>
+		<objname>Scythe</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:37:13</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>A-1685</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>B-0685</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>                                                                           </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>LARGE LONG</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-24</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>BOOTH 29</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\b0685.jpg</exp_37>
+		<imagefile>013\B0685.JPG</imagefile>
+		<imageno>2</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>B-0685</objectid>
+		<zsorter>B-                       00685</zsorter>
+		<objname>Scythe, Hand</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:34:34</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>B-0685</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>B-1095</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>B-1095</caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>34 CLOSED</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>SIERK BLDG.</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\b1095.jpg</exp_37>
+		<imagefile>013\B1095.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>B-1095</objectid>
+		<zsorter>B-                       01095</zsorter>
+		<objname>Hay Clam, Red Metal</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:50:58</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>B-1095</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>B-1099</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>Seed Planters 018</caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2017-12-07</deacdate>
+		<descrip>ONE PIECE</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>SIERK BLDG.</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\b1099.jpg</exp_37>
+		<imagefile>013\B1099.JPG</imagefile>
+		<imageno>4</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>B-1099</objectid>
+		<zsorter>B-                       01099</zsorter>
+		<objname>Planter, Corn Hand</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>KUHLMAN, JACK</recfrom>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:45:44</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>B-1099</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>B-1100</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>B-1100                                                                     </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>WAS PAINTED RED T-116??</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Sierk Bldg.</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\b1100.jpg</exp_37>
+		<imagefile>013\B1100.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>B-1100</objectid>
+		<zsorter>B-                       01100</zsorter>
+		<objname>Planter, Corn Hand</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>NORWOOD, I.S.</recfrom>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:41:28</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>B-1100</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>B-1102</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>Seed Planters 023                                                          </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>BIG SEED BOX # ON IT 1-11</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Teaching Collection</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>SIERK BLDG.</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\b1102.jpg</exp_37>
+		<imagefile>013\B1102.JPG</imagefile>
+		<imageno>2</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>B-1102</objectid>
+		<zsorter>B-                       01102</zsorter>
+		<objname>Seed Planter</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:38:59</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>B-1102</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>B-1163</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>B-1163 003                                                                 </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes>Broken</condnotes>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip/>
+		<dimnotes/>
+		<dispdate>2016-12-24</dispdate>
+		<dispmethod>Recycled</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Sierk Building</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\b1163-1.jpg</exp_37>
+		<imagefile>013\B1163-1.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>B-1163</objectid>
+		<zsorter>B-                       01163</zsorter>
+		<objname>Mill, Large Horse Power</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Item has fallen apart. Multiply items of same type. Voted out by collections committee.  We have one other  working horse power mill.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:19:57</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>B-1163</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>B-1202</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>Seed Planters 031                                                          </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>DOUBLE PEDAL</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>Sierk Building</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\b1202.jpg</exp_37>
+		<imagefile>013\B1202.JPG</imagefile>
+		<imageno>2</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>B-1202</objectid>
+		<zsorter>B-                       01202</zsorter>
+		<objname>Grindstone, Seat</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2018-08-24</statusdate>
+		<statusby>Rose Schmit</statusby>
+		<subjects/>
+		<title/>
+		<updated>2018-08-24T16:48:42</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>B-1202</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>F-A6</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>muecke</by>
+		<caption/>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection/>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2021-02-04</deacdate>
+		<descrip/>
+		<dimnotes/>
+		<dispdate>2021-02-04</dispdate>
+		<dispmethod>Destroyed</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc/>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37/>
+		<imagefile/>
+		<imageno>0</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid></objectid>
+		<zsorter>                        0000               </zsorter>
+		<objname/>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>nothing available for information. it was just a dot on the computer</reason>
+		<recdate/>
+		<recas>Found in Collection</recas>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>Found in collection</recfrom>
+		<status/>
+		<statusdate/>
+		<statusby/>
+		<subjects/>
+		<title/>
+		<updated>2024-02-09T09:32:51</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>F-A6</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>FL-130</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Rose Schmit</by>
+		<caption/>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>NS</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2018-08-24</deacdate>
+		<descrip/>
+		<dimnotes/>
+		<dispdate/>
+		<dispmethod/>
+		<event/>
+		<repathand/>
+		<homeloc>Museum</homeloc>
+		<locfield3/>
+		<locfield6>stop of table</locfield6>
+		<locfield5/>
+		<locfield1>West wing</locfield1>
+		<locfield4/>
+		<locfield2/>
+		<exp_37/>
+		<imagefile/>
+		<imageno>0</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid>FL-130</objectid>
+		<zsorter>FL-                      00130</zsorter>
+		<objname>Shell-Large White &amp; Pink</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Outside the scope of the statement of purpose of the museum </reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>NELSON, OSCAR</recfrom>
+		<status>Deaccessioned</status>
+		<statusdate>2018-08-24</statusdate>
+		<statusby>Rose Schmit</statusby>
+		<subjects/>
+		<title/>
+		<updated>2018-08-24T16:48:19</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>FL-130</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>FL-131</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Rose Schmit</by>
+		<caption/>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>NS</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2018-08-24</deacdate>
+		<descrip>Large white and pink</descrip>
+		<dimnotes/>
+		<dispdate/>
+		<dispmethod/>
+		<event/>
+		<repathand/>
+		<homeloc>Museum</homeloc>
+		<locfield3/>
+		<locfield6>table top</locfield6>
+		<locfield5/>
+		<locfield1>West wing</locfield1>
+		<locfield4/>
+		<locfield2/>
+		<exp_37/>
+		<imagefile/>
+		<imageno>0</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid>FL-131</objectid>
+		<zsorter>FL-                      00131</zsorter>
+		<objname>Sea Shell-Conk</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Outside the scope of the statement of purpose of the museum</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2018-08-24</statusdate>
+		<statusby>Rose Schmit</statusby>
+		<subjects/>
+		<title/>
+		<updated>2018-08-24T16:49:08</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>FL-131</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>FU-019.01</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>Sewing Machines And More 018</caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>FURNITURE</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2017-07-08</deacdate>
+		<descrip>SERIAL #684616 PAT. 8-26-1879 NO COVER, 2 DRAWERS FROM THE EARL BONESTEEL ESTATE</descrip>
+		<dimnotes/>
+		<dispdate>2018-03-23</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>EAST ROOM</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>014\fu01901-2.jpg</exp_37>
+		<imagefile>014\FU01901-2.JPG                                           </imagefile>
+		<imageno>2</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Returned to Family 3 23 2018. Brian Harmsen received sewing machine on 2-23-2018. Witnessed by Gaylene Chapman</notes>
+		<objectid>FU-019.01</objectid>
+		<zsorter>FU-                      0001900001</zsorter>
+		<objname>Sewing Machine, New Home</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>redundant item </reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>CLAUSEN, MAHLEN</recfrom>
+		<status>Deaccessioned</status>
+		<statusdate>2017-07-08</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2018-03-27T13:29:03</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>FU-019.01</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>LC-228</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>                                                                           </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>(6081) OLD, WORN
+</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-24</dispdate>
+		<dispmethod>Inventory Loss</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>KOCK CABIN</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\lc228-2.jpg</exp_37>
+		<imagefile>013\LC228-2.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>LC-228</objectid>
+		<zsorter>LC-                      00228</zsorter>
+		<objname>Scythe, Long Handle</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiply items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>EDGAR, HARVEY</recfrom>
+		<status>Pending Deaccession</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:22:57</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>LC-228</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>LC-246</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>                                                                           </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>SEMORE MJG. CO LABEL STILL ON HANDLE</descrip>
+		<dimnotes/>
+		<dispdate/>
+		<dispmethod/>
+		<event/>
+		<repathand/>
+		<homeloc>KOCK CABIN</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\lc246.jpg</exp_37>
+		<imagefile>013\LC246.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>LC-246</objectid>
+		<zsorter>LC-                      00246</zsorter>
+		<objname>Scythe, Long Handle</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>multiply items of same type </reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T11:11:01</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>LC-246</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>LC-250</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>LC-250                                                                     </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>(6089) PAT'D 10-13-1807, M.I. BATCHELLER, STERLING, ILL LEATHER STRAP</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>KOCK CABIN</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\lc250.jpg</exp_37>
+		<imagefile>013\LC250.JPG</imagefile>
+		<imageno>6</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>LC-250</objectid>
+		<zsorter>LC-                      00250</zsorter>
+		<objname>Corn Planter, Hand Wood</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:43:56</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>LC-250</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>R-0105</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene Chapman</by>
+		<caption>Seed Planters 017                                                          </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>SEED BROADCASTER</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-24</dispdate>
+		<dispmethod>Teaching Collection</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>SIERK BLDG.</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\r0105.jpg</exp_37>
+		<imagefile>013\R0105.JPG</imagefile>
+		<imageno>6</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>R-0105</objectid>
+		<zsorter>R-                       00105</zsorter>
+		<objname>Seeder</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>IMHALF, RICHARD</recfrom>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:31:45</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>R-0105</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>R-0118</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>Seed Planters 027                                                          </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>GRIND STONE, FOOT PEDDLED WITH SEAT</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>SIERK BLDG.</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\r0118.jpg</exp_37>
+		<imagefile>013\R0118.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>R-0118</objectid>
+		<zsorter>R-                       00118</zsorter>
+		<objname>Grindstone</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>EWEN, GARY</recfrom>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-17</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2016-12-22T13:48:58</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>R-0118</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>S-022 (2)</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Bryanne Bose</by>
+		<caption/>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>NS</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2021-08-12</deacdate>
+		<descrip/>
+		<dimnotes/>
+		<dispdate>2021-08-10</dispdate>
+		<dispmethod/>
+		<event/>
+		<repathand/>
+		<homeloc>SOUTH ROOM</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37/>
+		<imagefile/>
+		<imageno>0</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid>S-022 (2)</objectid>
+		<zsorter>S-                       00022                (2)</zsorter>
+		<objname>Hawks, Stuffed</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Didn't want</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom>RENSINK, FLOYD &amp; SHIRLA</recfrom>
+		<status/>
+		<statusdate/>
+		<statusby/>
+		<subjects/>
+		<title/>
+		<updated>2021-08-12T11:12:48</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>S-022 (2)</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>S-632</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Rose Schmit</by>
+		<caption>S-632 001</caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>HOUSEHOLD</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2018-08-24</deacdate>
+		<descrip>EASY WASHER, NO WRINGER</descrip>
+		<dimnotes/>
+		<dispdate/>
+		<dispmethod/>
+		<event/>
+		<repathand/>
+		<homeloc>WEST ROOM</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\s632.jpg</exp_37>
+		<imagefile>013\S632.JPG                                                </imagefile>
+		<imageno>4</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes/>
+		<objectid>S-632</objectid>
+		<zsorter>S-                       00632</zsorter>
+		<objname>Washer, Clothes</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Poor condition, no provenance, and duplicate</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Pending Deaccession</status>
+		<statusdate>2017-01-25</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2018-08-24T16:07:44</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>S-632</exp_81>
+	</reportdata>
+	<reportdata>
+		<accessno>T-392</accessno>
+		<acqvalue>0.00</acqvalue>
+		<appnotes/>
+		<appraisor/>
+		<repatdate/>
+		<by>Gaylene J Chapman</by>
+		<caption>Seed Planters 026                                                          </caption>
+		<cat>D</cat>
+		<catdate/>
+		<catby/>
+		<classes/>
+		<collection>TOOL</collection>
+		<condition/>
+		<conddate/>
+		<condnotes/>
+		<condexam/>
+		<creator/>
+		<credit/>
+		<curvalmax>0.00</curvalmax>
+		<curvalue>0.00</curvalue>
+		<dataset/>
+		<date/>
+		<deacdate>2016-12-07</deacdate>
+		<descrip>HAND, ROUND CAN ON SIDE FOR SEEDS</descrip>
+		<dimnotes/>
+		<dispdate>2016-12-22</dispdate>
+		<dispmethod>Transferred</dispmethod>
+		<event/>
+		<repathand/>
+		<homeloc>SIERK BLDG.</homeloc>
+		<locfield3/>
+		<locfield6/>
+		<locfield5/>
+		<locfield1/>
+		<locfield4/>
+		<locfield2/>
+		<exp_37>013\t392.jpg</exp_37>
+		<imagefile>013\T392.JPG</imagefile>
+		<imageno>3</imageno>
+		<inscomp/>
+		<insphone/>
+		<insdate/>
+		<policyno/>
+		<inspremium/>
+		<insrep/>
+		<insvalue>0.00</insvalue>
+		<invnby/>
+		<invndate/>
+		<legal/>
+		<notes>Approval:
+Collections Committee Member: 
+_________________________________________Date_____________________
+
+Director: __________________________________________ Date____________________
+Approved
+Board of Directors
+Signature. ________________________________________Date: _____________________
+
+Final Disposition or Removal of Artifact:
+
+By: ______________________________________________Date: ______________________
+</notes>
+		<objectid>T-392</objectid>
+		<zsorter>T-                       00392</zsorter>
+		<objname>Corn Planter</objname>
+		<oldno/>
+		<otherno/>
+		<othername/>
+		<people/>
+		<provenance/>
+		<reason>Multiple items of same type. Voted out by collections committee.</reason>
+		<recdate/>
+		<recas/>
+		<pubnotes/>
+		<repatby/>
+		<repatclaim/>
+		<repatdisp/>
+		<repatnotes/>
+		<repatnotic/>
+		<repattype/>
+		<sterms/>
+		<recfrom/>
+		<status>Deaccessioned</status>
+		<statusdate>2016-11-16</statusdate>
+		<statusby>Gaylene J Chapman</statusby>
+		<subjects/>
+		<title/>
+		<updated>2017-02-22T14:14:14</updated>
+		<updatedby>Unknown</updatedby>
+		<valuedate/>
+		<earlydate>0</earlydate>
+		<latedate>0</latedate>
+		<exp_81>T-392</exp_81>
+	</reportdata>
+</VFPData>
